@@ -11,7 +11,7 @@ import java.util.List;
 public class Panier {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @Column(nullable = false)
     private String nom;

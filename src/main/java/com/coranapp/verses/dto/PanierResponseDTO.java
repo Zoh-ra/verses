@@ -5,7 +5,7 @@ import java.util.List;
 
 @Data
 public class PanierResponseDTO {
-    private int id;
+    private Integer id;
     private String nom;
     private List<VersetsDTO> versets;
 }
